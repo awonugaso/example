@@ -24,7 +24,7 @@
 
 ## Invoice
 
-* [Add Invoice](invoice/add-invoice.md)
+* [Add Invoice](../invoice/add-invoice.md)
 * [Get Invoice]()
 * [Send Invoice]()
 * [Delete Invoice](invoice/delete-invoice.md)

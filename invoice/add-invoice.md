@@ -1,4 +1,4 @@
-# add-invoice
+# Add Invoice
 
 {% api-method method="post" host="https://api.autocredit.ng/invoices" path="" %}
 {% api-method-summary %}

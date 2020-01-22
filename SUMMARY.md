@@ -21,6 +21,10 @@
 * [Add Payment](add-payment.md)
 * [Get Payment](get-payment.md)
 * [Get Payments](get-payment-history.md)
+
+## INVOICE
+
+* [Add Invoice](invoice/add-invoice.md)
 * [README](untitled/README.md)
   * [fundamentals](untitled/fundamentals.md)
   * [accept-payment](untitled/accept-payment.md)
@@ -31,7 +35,6 @@
     * [get-client](untitled/client/get-client.md)
     * [get-clients](untitled/client/get-clients.md)
   * [invoice](untitled/invoice/README.md)
-    * [add-invoice](untitled/invoice/add-invoice.md)
     * [delete-invoice](untitled/invoice/delete-invoice.md)
     * [get-invoice-history](untitled/invoice/get-invoice-history.md)
   * [payments](untitled/payments.md)
