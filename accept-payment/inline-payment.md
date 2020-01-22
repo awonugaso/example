@@ -5,7 +5,7 @@ description: >-
   payments from your customers.
 ---
 
-# inline-payment
+# Inline Payment
 
 {% api-method method="options" host="" path="" %}
 {% api-method-summary %}

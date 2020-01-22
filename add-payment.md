@@ -1,27 +1,39 @@
-# get-payment
+# Add Payment
 
-{% api-method method="get" host="https://api.autocredit.ng/payments/:reference\_code" path="" %}
+{% api-method method="post" host="https://api.autocredit.ng/payments" path="" %}
 {% api-method-summary %}
-Get Payment
+Add Payment
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+The Add Payment endpoint allows you to add a manual payment to Autocredit.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Your Autocredit Secret Key. prefixed with "Bearer "
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-body-parameters %}
 {% api-method-parameter name="reference\_code" type="string" required=true %}
 Invoice reference code
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
 
-{% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-Your Autocredit secret key prefixed with "Bearer "
+{% api-method-parameter name="amount" type="string" required=true %}
+Payment amount
 {% endapi-method-parameter %}
-{% endapi-method-headers %}
+
+{% api-method-parameter name="channel" type="string" required=true %}
+Payment channel `Cash`, `BankTransfer`, `POS` or `Cheque`
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="notes" type="string" required=false %}
+Brief notes on Payment
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -33,6 +45,7 @@ Your Autocredit secret key prefixed with "Bearer "
 ```javascript
 {
   "status": "success",
+  "message": "Payment successful.",
   "data": {
     "company_id": "1",
     "client_id": "1",
@@ -52,6 +65,25 @@ Your Autocredit secret key prefixed with "Bearer "
     "created_at": "2016-12-21 18:46:30",
     "updated_at": "2016-12-21 18:46:30",
     "id": 1,
+    "client": {
+        "id": 1
+        "company_id": 1,
+        "name": "Albert Specialist Hospital",
+        "first_name": "Albert",
+        "last_name": "Jane",
+        "email": "jane@alberthospital.com",
+        "phone": "+2348012345678",
+        "website": "http://www.alberthospital.com",
+        "address": "Wase II",
+        "type": "Customer",
+        "settlement_bank": "",
+        "account_name": "",
+        "account_number": "",
+        "status": "1",
+        "created_at": "2016-12-21 17:19:10",
+        "updated_at": "2016-12-21 17:19:10",
+        "deleted_at": null
+    },
     invoice: {
         "id": 1,
         "company_id": "1",
@@ -81,25 +113,6 @@ Your Autocredit secret key prefixed with "Bearer "
                 "deleted_at": null
             }
         ]
-     },
-     "client": {
-        "id": 1
-        "company_id": 1,
-        "name": "Albert Specialist Hospital",
-        "first_name": "Albert",
-        "last_name": "Jane",
-        "email": "jane@alberthospital.com",
-        "phone": "+2348012345678",
-        "website": "http://www.alberthospital.com",
-        "address": "Wase II",
-        "type": "Customer",
-        "settlement_bank": "",
-        "account_name": "",
-        "account_number": "",
-        "status": "1",
-        "created_at": "2016-12-21 17:19:10",
-        "updated_at": "2016-12-21 17:19:10",
-        "deleted_at": null
     }
   }
 }
@@ -109,13 +122,80 @@ Your Autocredit secret key prefixed with "Bearer "
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="get" host="https://api.autocredit.ng/payments/:reference\_code" path="" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```text
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.autocredit.ng/payments/:reference\_code" path="" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```text
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 ## Request
 
 ```bash
-curl https://api.autocredit.ng/payments/j9CbiTN0oJe4vWhglyS2 \
+curl https://api.autocredit.ng/payments \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer SECRET_KEY" \
--X GET
+-d '{ "reference_code": "j9CbiTN0oJe4vWhglyS2",
+        "amount": "50,000.00",
+        "channel": "Cash" }' \
+-X POST
 ```
 
 ## Response
@@ -123,6 +203,7 @@ curl https://api.autocredit.ng/payments/j9CbiTN0oJe4vWhglyS2 \
 ```javascript
 {
   "status": "success",
+  "message": "Payment successful.",
   "data": {
     "company_id": "1",
     "client_id": "1",
@@ -142,6 +223,25 @@ curl https://api.autocredit.ng/payments/j9CbiTN0oJe4vWhglyS2 \
     "created_at": "2016-12-21 18:46:30",
     "updated_at": "2016-12-21 18:46:30",
     "id": 1,
+    "client": {
+        "id": 1
+        "company_id": 1,
+        "name": "Albert Specialist Hospital",
+        "first_name": "Albert",
+        "last_name": "Jane",
+        "email": "jane@alberthospital.com",
+        "phone": "+2348012345678",
+        "website": "http://www.alberthospital.com",
+        "address": "Wase II",
+        "type": "Customer",
+        "settlement_bank": "",
+        "account_name": "",
+        "account_number": "",
+        "status": "1",
+        "created_at": "2016-12-21 17:19:10",
+        "updated_at": "2016-12-21 17:19:10",
+        "deleted_at": null
+    },
     invoice: {
         "id": 1,
         "company_id": "1",
@@ -171,25 +271,6 @@ curl https://api.autocredit.ng/payments/j9CbiTN0oJe4vWhglyS2 \
                 "deleted_at": null
             }
         ]
-     },
-     "client": {
-        "id": 1
-        "company_id": 1,
-        "name": "Albert Specialist Hospital",
-        "first_name": "Albert",
-        "last_name": "Jane",
-        "email": "jane@alberthospital.com",
-        "phone": "+2348012345678",
-        "website": "http://www.alberthospital.com",
-        "address": "Wase II",
-        "type": "Customer",
-        "settlement_bank": "",
-        "account_name": "",
-        "account_number": "",
-        "status": "1",
-        "created_at": "2016-12-21 17:19:10",
-        "updated_at": "2016-12-21 17:19:10",
-        "deleted_at": null
     }
   }
 }

@@ -5,7 +5,7 @@ description: >-
   wallets.
 ---
 
-# split-payment
+# Split Payment
 
 ## **Rules**
 

@@ -9,12 +9,21 @@
 * [Errors](errors.md)
 * [Plugins & Libraries](community-libraries.md)
 * [Test Cards & Bank Accounts](test-cards-and-bank-accounts.md)
+* [Webhook](webhook.md)
+
+## ACCEPT PAYMENT
+
+* [Inline Payment](accept-payment/inline-payment.md)
+* [Split Payment](accept-payment/split-payment.md)
+
+## PAYMENTS
+
+* [Add Payment](add-payment.md)
+* [Get Payment](get-payment.md)
+* [Get Payments](get-payment-history.md)
 * [README](untitled/README.md)
-  * [fundamentals](untitled/fundamentals/README.md)
-    * [webhook](untitled/fundamentals/webhook.md)
-  * [accept-payment](untitled/accept-payment/README.md)
-    * [inline-payment](untitled/accept-payment/inline-payment.md)
-    * [split-payment](untitled/accept-payment/split-payment.md)
+  * [fundamentals](untitled/fundamentals.md)
+  * [accept-payment](untitled/accept-payment.md)
   * [banks](untitled/banks/README.md)
     * [get-banks](untitled/banks/get-banks.md)
   * [client](untitled/client/README.md)
@@ -25,10 +34,7 @@
     * [add-invoice](untitled/invoice/add-invoice.md)
     * [delete-invoice](untitled/invoice/delete-invoice.md)
     * [get-invoice-history](untitled/invoice/get-invoice-history.md)
-  * [payments](untitled/payments/README.md)
-    * [add-payment](untitled/payments/add-payment.md)
-    * [get-payment-history](untitled/payments/get-payment-history.md)
-    * [get-payment](untitled/payments/get-payment.md)
+  * [payments](untitled/payments.md)
   * [products](untitled/products/README.md)
     * [add-product](untitled/products/add-product.md)
     * [delete-product](untitled/products/delete-product.md)

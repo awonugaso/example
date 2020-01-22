@@ -9,18 +9,18 @@
 * [Errors](../errors.md)
 * [Plugins & Libraries](../community-libraries.md)
 * [Test Cards & Bank Accounts](../test-cards-and-bank-accounts.md)
-* [Webhook](fundamentals/webhook.md)
+* [Webhook](../webhook.md)
 
 ## Accept Payment
 
-* [Inline Payment](accept-payment/inline-payment.md)
-* [Split Payment](accept-payment/split-payment.md)
+* [Inline Payment](../accept-payment/inline-payment.md)
+* [Split Payment](../accept-payment/split-payment.md)
 
 ## Payments
 
-* [Add Payment](payments/add-payment.md)
-* [Get Payment](payments/get-payment.md)
-* [Get Payments](payments/get-payment-history.md)
+* [Add Payment](../add-payment.md)
+* [Get Payment](../get-payment.md)
+* [Get Payments](../get-payment-history.md)
 
 ## Invoice
 

@@ -1,4 +1,4 @@
-# get-payment-history
+# Get Payments
 
 {% api-method method="post" host="https://api.autocredit.ng/payments" path="" %}
 {% api-method-summary %}

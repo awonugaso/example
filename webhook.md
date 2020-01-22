@@ -1,4 +1,4 @@
-# webhook
+# Webhook
 
 A webhook allows your application to receive notifications when updates are made on your account on Autocredit. Webhook update notifications are sent as POST requests to a callback URL that you supply.
 
