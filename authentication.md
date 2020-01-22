@@ -1,4 +1,4 @@
-# authentication
+# Authentication
 
 Autocredit API uses API keys to authenticate requests. You can view and manage your API keys from the [Autocredit Dashboard](https://dashboard.demo.autocredit.ng/settings/api).
 

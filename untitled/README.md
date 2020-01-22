@@ -12,5 +12,5 @@ To start integrating the Autocredit API, read our Developer Introduction.
 
 If you are not a developer, try using our community built plugins and libraries - no code required.
 
-{% page-ref page="fundamentals/community-libraries.md" %}
+{% page-ref page="../community-libraries.md" %}
 

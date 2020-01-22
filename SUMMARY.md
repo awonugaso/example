@@ -1,7 +1,17 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Introduction](introduction.md)
+
+## FUNDAMENTALS
+
+* [Authentication](authentication.md)
+* [Errors](errors.md)
+* [Plugins & Libraries](community-libraries.md)
+* [Test Cards & Bank Accounts](test-cards-and-bank-accounts.md)
 * [README](untitled/README.md)
+  * [fundamentals](untitled/fundamentals/README.md)
+    * [webhook](untitled/fundamentals/webhook.md)
   * [accept-payment](untitled/accept-payment/README.md)
     * [inline-payment](untitled/accept-payment/inline-payment.md)
     * [split-payment](untitled/accept-payment/split-payment.md)
@@ -11,13 +21,6 @@
     * [delete-client](untitled/client/delete-client.md)
     * [get-client](untitled/client/get-client.md)
     * [get-clients](untitled/client/get-clients.md)
-  * [fundamentals](untitled/fundamentals/README.md)
-    * [authentication](untitled/fundamentals/authentication.md)
-    * [community-libraries](untitled/fundamentals/community-libraries.md)
-    * [errors](untitled/fundamentals/errors.md)
-    * [test-cards-and-bank-accounts](untitled/fundamentals/test-cards-and-bank-accounts.md)
-    * [webhook](untitled/fundamentals/webhook.md)
-  * [Introduction](untitled/introduction.md)
   * [invoice](untitled/invoice/README.md)
     * [add-invoice](untitled/invoice/add-invoice.md)
     * [delete-invoice](untitled/invoice/delete-invoice.md)

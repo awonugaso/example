@@ -1,4 +1,4 @@
-# community-libraries
+# Plugins & Libraries
 
 Plugins & libraries make integrating the Autocredit API very easy. We have in collaboration with the open source community developed multiple plugins & libraries to help you get started as quick as possible.
 

@@ -1,14 +1,14 @@
 # SUMMARY
 
 * [Welcome]()
-* [Introduction](introduction.md)
+* [Introduction](../introduction.md)
 
 ## Fundamentals
 
-* [Authentication](fundamentals/authentication.md)
-* [Errors](fundamentals/errors.md)
-* [Plugins & Libraries](fundamentals/community-libraries.md)
-* [Test Cards & Bank Accounts](fundamentals/test-cards-and-bank-accounts.md)
+* [Authentication](../authentication.md)
+* [Errors](../errors.md)
+* [Plugins & Libraries](../community-libraries.md)
+* [Test Cards & Bank Accounts](../test-cards-and-bank-accounts.md)
 * [Webhook](fundamentals/webhook.md)
 
 ## Accept Payment
