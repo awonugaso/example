@@ -37,7 +37,6 @@
   * [invoice](untitled/invoice/README.md)
     * [delete-invoice](untitled/invoice/delete-invoice.md)
     * [get-invoice-history](untitled/invoice/get-invoice-history.md)
-  * [payments](untitled/payments.md)
   * [products](untitled/products/README.md)
     * [add-product](untitled/products/add-product.md)
     * [delete-product](untitled/products/delete-product.md)
