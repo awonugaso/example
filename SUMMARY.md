@@ -25,6 +25,7 @@
 ## INVOICE
 
 * [Add Invoice](invoice/add-invoice.md)
+* [Get Invoice](invoice/untitled-2.md)
 * [README](untitled/README.md)
   * [fundamentals](untitled/fundamentals.md)
   * [accept-payment](untitled/accept-payment.md)
