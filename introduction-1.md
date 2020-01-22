@@ -1,6 +1,6 @@
 # introduction
 
-To get started with the Payant API, you should [Create a Demo Account](https://demo.payant.ng/).
+To get started with the Autocredit API, you should [Create a Demo Account](https://demo.payant.ng/).
 
 Now that you've a demo account, obtain your demo API keys from the [Payant Dashboard](https://dashboard.demo.payant.ng/settings/api).
 
