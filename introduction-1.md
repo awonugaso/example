@@ -1,4 +1,4 @@
-# introduction
+# Introduction
 
 To get started with the Autocredit API, you should [Create a Demo Account](https://demo.payant.ng/).
 

@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [introduction](introduction-1.md)
+* [Introduction](introduction-1.md)
 
 ## FUNDAMENTALS
 
