@@ -1,4 +1,4 @@
-# get-invoice-history
+# Get Invoices
 
 {% api-method method="get" host="https://api.autocredit.ng/invoices" path="" %}
 {% api-method-summary %}

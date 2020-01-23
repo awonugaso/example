@@ -27,12 +27,12 @@
 * [Add Invoice](../invoice/add-invoice.md)
 * [Get Invoice]()
 * [Send Invoice]()
-* [Delete Invoice](invoice/delete-invoice.md)
-* [Get Invoices](invoice/get-invoice-history.md)
+* [Delete Invoice](../invoice/delete-invoice.md)
+* [Get Invoices](../invoice/get-invoice-history.md)
 
 ## Banks
 
-* [Get Banks](banks/get-banks.md)
+* [Get Banks](../banks/get-banks.md)
 * [Resolve Bank Account]()
 
 ## Transfers

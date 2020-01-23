@@ -26,19 +26,29 @@
 
 * [Add Invoice](invoice/add-invoice.md)
 * [Get Invoice](invoice/untitled-2.md)
+* [Send Invoice](invoice/untitled-2-1.md)
+* [Delete Invoice](invoice/delete-invoice.md)
+* [Get Invoices](invoice/get-invoice-history.md)
+
+## BANKS
+
+* [Get Banks](banks/get-banks.md)
+* [Resolve Bank Account](banks/resolve-bank-account.md)
+
+## TRANSFERS
+
+* [Untitled](transfers/untitled.md)
 * [README](untitled/README.md)
   * [fundamentals](untitled/fundamentals.md)
   * [accept-payment](untitled/accept-payment.md)
-  * [banks](untitled/banks/README.md)
-    * [get-banks](untitled/banks/get-banks.md)
+  * [banks](untitled/banks.md)
   * [client](untitled/client/README.md)
     * [delete-client](untitled/client/delete-client.md)
     * [get-client](untitled/client/get-client.md)
     * [get-clients](untitled/client/get-clients.md)
-  * [invoice](untitled/invoice/README.md)
-    * [delete-invoice](untitled/invoice/delete-invoice.md)
-    * [get-invoice-history](untitled/invoice/get-invoice-history.md)
+  * [invoice](untitled/invoice.md)
   * [products](untitled/products/README.md)
+    * [Untitled](untitled/products/untitled.md)
     * [add-product](untitled/products/add-product.md)
     * [delete-product](untitled/products/delete-product.md)
     * [edit-product](untitled/products/edit-product.md)
@@ -48,6 +58,7 @@
   * [SUMMARY](untitled/summary.md)
   * [transfers](untitled/transfers/README.md)
     * [withdraw-from-wallet-bulk](untitled/transfers/withdraw-from-wallet-bulk.md)
+  * [Untitled](untitled/untitled.md)
   * [wallets](untitled/wallets/README.md)
     * [add-wallet](untitled/wallets/add-wallet.md)
     * [get-wallet](untitled/wallets/get-wallet.md)

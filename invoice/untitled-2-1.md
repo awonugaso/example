@@ -1,8 +1,8 @@
-# delete-invoice
+# Send Invoice
 
-{% api-method method="delete" host="https://api.autocredit.ng/invoices/:reference\_code" path="" %}
+{% api-method method="get" host="https://api.autocredit.ng/invoices/send/:reference\_code" path="" %}
 {% api-method-summary %}
-Delete Invoice
+Send Invoice via Email
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -19,7 +19,7 @@ Invoice reference code
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Autocredit secret key prefixed by "Bearer "
+Autocredit secret key prefixed with "Bearer "
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -41,10 +41,10 @@ Autocredit secret key prefixed by "Bearer "
 ## **Request**
 
 ```bash
-curl https://api.autocredit.ng/invoices/j9CbiTN0oJe4vWhglyS2 \
+curl https://api.autocredit.ng/invoices/send/j9CbiTN0oJe4vWhglyS2 \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer SECRET_KEY" \
--X DELETE
+-X GET
 ```
 
 ## **Response**
@@ -52,7 +52,8 @@ curl https://api.autocredit.ng/invoices/j9CbiTN0oJe4vWhglyS2 \
 ```javascript
 {
   "status": "success",
-  "message": "Invoice deleted successfully."
+  "message": "Invoice successfully sent."
+  }
 }
 ```
 

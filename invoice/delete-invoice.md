@@ -1,12 +1,8 @@
----
-description: GET
----
+# Delete Invoice
 
-# get-banks
-
-{% api-method method="get" host="https://api.autocredit.ng/banks" path="" %}
+{% api-method method="delete" host="https://api.autocredit.ng/invoices/:reference\_code" path="" %}
 {% api-method-summary %}
-Get Banks
+Delete Invoice
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -15,9 +11,15 @@ Get Banks
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="reference\_code" type="string" required=true %}
+Invoice reference code
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
-Autocredit secret key prefixed with "Bearer "
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Autocredit secret key prefixed by "Bearer "
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -28,20 +30,8 @@ Autocredit secret key prefixed with "Bearer "
 
 {% endapi-method-response-example-description %}
 
-```javascript
-{
-  "status": "success",
-  "data": {
-      "214": "FIRST CITY MONUMENT BANK PLC",
-      "215": "UNITY BANK PLC",
-      .....,
-      .....,
-      .....,
-      "035": "WEMA BANK PLC",
-      "057": "ZENITH BANK PLC"
-    }
-  }
-}
+```text
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -51,10 +41,10 @@ Autocredit secret key prefixed with "Bearer "
 ## **Request**
 
 ```bash
-curl https://api.autocredit.ng/banks \
+curl https://api.autocredit.ng/invoices/j9CbiTN0oJe4vWhglyS2 \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer SECRET_KEY" \
--X GET
+-X DELETE
 ```
 
 ## **Response**
@@ -62,16 +52,7 @@ curl https://api.autocredit.ng/banks \
 ```javascript
 {
   "status": "success",
-  "data": {
-      "214": "FIRST CITY MONUMENT BANK PLC",
-      "215": "UNITY BANK PLC",
-      .....,
-      .....,
-      .....,
-      "035": "WEMA BANK PLC",
-      "057": "ZENITH BANK PLC"
-    }
-  }
+  "message": "Invoice deleted successfully."
 }
 ```
 
