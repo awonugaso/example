@@ -104,14 +104,6 @@ Item's unit cost
 {% api-method-parameter name="quantity" type="string" required=true %}
 Item's quantity
 {% endapi-method-parameter %}
-
-{% api-method-parameter name="tokenize" type="string" required=false %}
-Tokenize cards, `True` or `false`, Defaults to `false`
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="payment\_methods" type="array" required=false %}
-Payment methids to show on checkout can be a combination of `card`, `bank`, `phone`, and `QR`. Example, \["card", "phone"\] for Card and Phone Number payments only.
-{% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
@@ -134,25 +126,25 @@ Payment methids to show on checkout can be a combination of `card`, `bank`, `pho
 ```markup
 <form>
   <script src="https://api.autocredit.ng/assets/js/inline.min.js"></script>
-  <button type="button" onclick="payWithPayant()"> Pay </button> 
+  <button type="button" onclick="payWithAutocredit()"> Pay </button> 
 </form>
 
 <script>
-  function payWithPayant() {
+  function payWithAutocredit() {
     var handler = Autocredit.invoice({
       "key": "e47aa44e4a320ae2a2b6b8804a4d2fa1b74437ab",
       "client": {
-            "first_name": "Albert",
-            "last_name": "Jane",
-            "email": "jane@alberthospital.com",
-            "phone": "+2348012345678"
+            "first_name": "Aremu",
+            "last_name": "Idris",
+            "email": "aremu@autocredit.ng",
+            "phone": "+2348078422238"
         },
       "due_date": "12/30/2016",
       "fee_bearer": "client",
       "items": [
         {
-          "item": ".Com Domain Name Registration",
-          "description": "alberthostpital.com",
+          "item": "Registeration Fee",
+          "description": "newsite.com",
           "unit_cost": "2500.00",
           "quantity": "1"
         }

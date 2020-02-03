@@ -4,8 +4,8 @@ Plugins & libraries make integrating the Autocredit API very easy. We have in co
 
 ## **Official**
 
-* [AutoCredit](https://www.github.com/AutoCreditNG)
-* [AutoCredit WooCommerce Plugin](https://wordpress.org/plugins/autocredit-woocommerce)
+* [Autocredit](https://www.github.com/PayantNG)
+* [Autocredit WooCommerce Plugin](https://wordpress.org/plugins/autocredit-woocommerce)
 
 ## **Community**
 
