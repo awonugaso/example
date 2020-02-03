@@ -39,7 +39,7 @@ Whenever their are changes on your account, we will send a POST request to your 
 
 We have created an example Node.js server for you to get started quickly.
 
-* [node-webhook-example](https://github.com/PayantNG/node-webhook-example) by [PayantNG](https://github.com/PayantNG)
+* [node-webhook-example](https://github.com/AutoCredit/node-webhook-example) by 
 
 ```javascript
 {

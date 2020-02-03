@@ -19,16 +19,6 @@ description: >-
 
 Fees are applied to split transactions the same way fees are applied to normal transactions on Autocredit. The only difference is that when the `fee_bearer` of the invoice is `account`, you can specify who bearers the fees in the split transaction. You can either spread the transaction fees across the receivers or choose a single receiver to bear the fees. When the selected receivers settlement value is less than the fees, we would automatically spread fees across all receivers.
 
-**Client Pays**  
-The following illustration shows how fees are paid when client bears the fees.
-
-![](https://developers.autocredit.ng/templates/autocredit/assets/images/client_pays.png)
-
-**Account Pays**  
-The following illustration shows how fees are paid when account bears the fees. The first illustration shows fees distributed across all receivers and the second illustration shows fees paid by a single receiver.
-
-![](https://developers.autocredit.ng/templates/autocredit/assets/images/receivers_pay.png)
-
 {% api-method method="options" host="" path="" %}
 {% api-method-summary %}
 Split payment

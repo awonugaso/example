@@ -16,19 +16,19 @@ Plugins & libraries make integrating the Autocredit API very easy. We have in co
 
 **Python**
 
-* Python - [pypayant](https://github.com/Olamyy/pypayant) by [Olamilekan Wahab](https://github.com/Olamyy)
+* Python - Coming Soon
 
 **Node.JS**
 
-* Node.JS - [node-autocredit](https://github.com/Subomi/node-autocredit) by [Subomi Oluwalana](https://github.com/Subomi)
+* Node.JS - Coming soon
 
 **Java**
 
-* Java - [jPayant](https://github.com/yusufoguntola/jPayant) by [Yusuf Oguntola](https://github.com/yusufoguntola)
+* Java - Coming Soon
 
 **C\#**
 
-* C\# - [Autocredit.NET](https://github.com/TNkemdilim/Autocredit.NET) by [Tochukwu Nkemdilim](https://github.com/TNkemdilim)
+* C\# - Coming Soon 
 
 {% hint style="info" %}
 **Heads up!**

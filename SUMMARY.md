@@ -8,7 +8,7 @@
 * [Authentication](authentication.md)
 * [Errors](errors.md)
 * [Plugins & Libraries](community-libraries.md)
-* [Test Cards & Bank Accounts](test-cards-and-bank-accounts.md)
+* [Test Bank Accounts](test-cards-and-bank-accounts.md)
 * [Webhook](webhook.md)
 
 ## ACCEPT PAYMENT
