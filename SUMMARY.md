@@ -37,31 +37,17 @@
 
 ## TRANSFERS
 
-* [Untitled](transfers/untitled.md)
-* [README](untitled/README.md)
-  * [fundamentals](untitled/fundamentals.md)
-  * [accept-payment](untitled/accept-payment.md)
-  * [banks](untitled/banks.md)
-  * [client](untitled/client/README.md)
-    * [delete-client](untitled/client/delete-client.md)
-    * [get-client](untitled/client/get-client.md)
-    * [get-clients](untitled/client/get-clients.md)
-  * [invoice](untitled/invoice.md)
-  * [products](untitled/products/README.md)
-    * [Untitled](untitled/products/untitled.md)
-    * [add-product](untitled/products/add-product.md)
-    * [delete-product](untitled/products/delete-product.md)
-    * [edit-product](untitled/products/edit-product.md)
-    * [get-product](untitled/products/get-product.md)
-    * [get-products](untitled/products/get-products.md)
-    * [get-stores](untitled/products/get-stores.md)
-  * [SUMMARY](untitled/summary.md)
-  * [transfers](untitled/transfers/README.md)
-    * [withdraw-from-wallet-bulk](untitled/transfers/withdraw-from-wallet-bulk.md)
-  * [Untitled](untitled/untitled.md)
-  * [wallets](untitled/wallets/README.md)
-    * [add-wallet](untitled/wallets/add-wallet.md)
-    * [get-wallet](untitled/wallets/get-wallet.md)
-    * [get-wallets](untitled/wallets/get-wallets.md)
-* [Untitled](untitled-1.md)
+* [Bulk Transfer](transfers/withdraw-from-wallet-bulk.md)
+
+## Client <a id="client-1"></a>
+
+* [Get Client](client-1/get-client.md)
+* [Delete Client](client-1/delete-client.md)
+* [Get Clients](client-1/get-clients.md)
+
+## Wallet
+
+* [Add Wallet](wallet/add-wallet.md)
+* [Get Wallet](wallet/get-wallet.md)
+* [Get Wallets](wallet/get-wallets.md)
 

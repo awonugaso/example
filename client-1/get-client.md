@@ -1,4 +1,4 @@
-# get-client
+# Get Client
 
 {% api-method method="get" host="https://api.autocredit.ng/clients/:id" path="" %}
 {% api-method-summary %}

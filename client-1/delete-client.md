@@ -1,8 +1,8 @@
-# get-clients
+# Delete Client
 
-{% api-method method="get" host="https://api.autocredit.ng/clients" path="" %}
+{% api-method method="delete" host="https://api.autocredit.ng/clients/:id" path="" %}
 {% api-method-summary %}
-Get Clients
+Delete Client
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -12,10 +12,16 @@ Get Clients
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="id" type="string" required=true %}
+Client ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Autocredit secret key prefixed with "Bearer "
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -24,26 +30,32 @@ Get Clients
 
 {% endapi-method-response-example-description %}
 
-```text
-
+```javascript
+{
+  "status": "success",
+  "message": "Client deleted successfully."
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-## Requests
+## **Request**
 
-```bash
-curl https://api.autocredit.ng/clients \
+```javascript
+curl https://api.autocredit.ng/clients/1 \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer SECRET_KEY" \
--X GET
+-X DELETE
 ```
 
-## Response
+## **Response**
 
-```text
-
+```javascript
+{
+  "status": "success",
+  "message": "Client deleted successfully."
+}
 ```
 

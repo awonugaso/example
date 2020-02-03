@@ -1,4 +1,4 @@
-# add-wallet
+# Add Wallet
 
 {% api-method method="post" host="https://api.autocredit.ng/wallets" path="" %}
 {% api-method-summary %}

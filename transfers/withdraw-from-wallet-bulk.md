@@ -1,4 +1,4 @@
-# withdraw-from-wallet-bulk
+# Bulk Transfer
 
 {% api-method method="post" host="https://api.autocredit.ng/wallets/withdraw/bulk/:reference\_code" path="" %}
 {% api-method-summary %}

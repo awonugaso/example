@@ -1,4 +1,4 @@
-# get-wallets
+# Get Wallets
 
 {% api-method method="get" host="https://api.autocredit.ng/wallets" path="" %}
 {% api-method-summary %}
