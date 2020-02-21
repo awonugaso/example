@@ -125,7 +125,7 @@ Item's quantity
 
 ```markup
 <form>
-  <script src="https://api.autocredit.ng/assets/js/inline.min.js"></script>
+  <script src="https://autocredit.ng/js/paydirect.js"></script>
   <button type="button" onclick="payWithAutocredit()"> Pay </button> 
 </form>
 
