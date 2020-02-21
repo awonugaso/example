@@ -133,7 +133,8 @@ Item's quantity
   function payWithAutocredit() {
     var handler = Autocredit.invoice({
       "key": "e47aa44e4a320ae2a2b6b8804a4d2fa1b74437ab",
-      "client": {
+      "orderid" : "8747874",
+      "customer": {
             "first_name": "Aremu",
             "last_name": "Idris",
             "email": "aremu@autocredit.ng",
