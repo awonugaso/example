@@ -37,17 +37,17 @@
 
 ## TRANSFERS
 
-* [Bulk Transfer](untitled/transfers/withdraw-from-wallet-bulk.md)
+* [Bulk Transfer](transfers/withdraw-from-wallet-bulk.md)
 
 ## Client <a id="client-1"></a>
 
-* [Get Client](untitled/client/get-client.md)
-* [Delete Client](untitled/client/delete-client.md)
-* [Get Clients](untitled/client/get-clients.md)
+* [Get Client](client-1/get-client.md)
+* [Delete Client](client-1/delete-client.md)
+* [Get Clients](client-1/get-clients.md)
 
 ## Wallet
 
-* [Add Wallet](untitled/wallets/add-wallet.md)
-* [Get Wallet](untitled/wallets/get-wallet.md)
-* [Get Wallets](untitled/wallets/get-wallets.md)
+* [Add Wallet](wallet/add-wallet.md)
+* [Get Wallet](wallet/get-wallet.md)
+* [Get Wallets](wallet/get-wallets.md)
 
