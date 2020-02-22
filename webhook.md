@@ -98,7 +98,7 @@ app.listen(process.env.PORT || 8005);
 ```
 {% endtab %}
 
-{% tab title="Php" %}
+{% tab title="PHP" %}
 ```php
 <?php
 
