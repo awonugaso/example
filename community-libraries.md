@@ -11,8 +11,8 @@ Plugins & libraries make integrating the Autocredit API very easy. We have in co
 
 **PHP**
 
-* PHP - [payantNG-php](https://github.com/JonathanItakpe/payantNG-php) by [Jonathan Itakpe](https://github.com/JonathanItakpe)
-* PHP Laravel - [laravel-autocredit](https://github.com/olaoluwa-98/laravel-autocredit) by [Emmanuel Awotunde](https://github.com/olaoluwa-98)
+* PHP - [AutocreditNG-php](https://github.com/AutocreditNG-php) by Opeoluwa 
+* PHP Laravel - [laravel-autocredit](https://github.com/laravel-autocredit) by Kodaolu Idris
 
 **Python**
 
@@ -33,6 +33,6 @@ Plugins & libraries make integrating the Autocredit API very easy. We have in co
 {% hint style="info" %}
 **Heads up!**
 
-Built an amazing plugin/library for Autocredit? [Let us know about it](https://autocredit.ng/support).
+Built an amazing plugin/library for Autocredit? [Let us know about it](https://autocredit.ng/#contact).
 {% endhint %}
 
