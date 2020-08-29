@@ -9,15 +9,15 @@ description: >-
 
 ## **Rules**
 
-1. Split type must either be `flat` or `percentage`.
-2. When spliting by `flat` amount, the total values in the receivers array must equal the total invoice amount.
-3. When spliting by `percentage`, the total values in the receivers array must equal 100%.
-4. Split transactions must have atleast 2 receivers and at most 6 receivers.
+1. The split type must either be `flat` or `percentage`.
+2. When splitting by a`flat` amount, the total values in the receivers array must equal the total invoice amount.
+3. When splitting by `percentage`, the total values in the receivers array must equal 100%.
+4. Split transactions must have at least 2 receivers and at most 6 receivers.
 5. One of the receivers must always be marked primary.
 
 ## **Fee Bearer**
 
-Fees are applied to split transactions the same way fees are applied to normal transactions on Autocredit. The only difference is that when the `fee_bearer` of the invoice is `account`, you can specify who bearers the fees in the split transaction. You can either spread the transaction fees across the receivers or choose a single receiver to bear the fees. When the selected receivers settlement value is less than the fees, we would automatically spread fees across all receivers.
+Fees are applied to split transactions the same way fees are applied to normal transactions on Autocredit. The only difference is that when the `fee_bearer` of the invoice is an`account`, you can specify who bearers the fees in the split transaction. You can either spread the transaction fees across the receivers or choose a single receiver to bear the fees. When the selected receiver's settlement value is less than the fees, we would automatically spread fees across all receivers.
 
 {% api-method method="options" host="" path="" %}
 {% api-method-summary %}
@@ -142,7 +142,7 @@ Split Receivers
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="wallet\_reference\_code" type="string" required=true %}
-Waller Refrence code
+Waller Reference code
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="value" type="string" required=false %}

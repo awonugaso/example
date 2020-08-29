@@ -1,6 +1,6 @@
 # Plugins & Libraries
 
-Plugins & libraries make integrating the Autocredit API very easy. We have in collaboration with the open source community developed multiple plugins & libraries to help you get started as quick as possible.
+Plugins & libraries make integrating the Autocredit API very easy. We have in collaboration with the open source community developed multiple plugins & libraries to help you get started as quickly as possible.
 
 ## **Official**
 
@@ -16,23 +16,23 @@ Plugins & libraries make integrating the Autocredit API very easy. We have in co
 
 **Python**
 
-* Python - Coming Soon
+* Python - [AutocreditNG-python](https://google.com) by Coming soon
 
 **Node.JS**
 
-* Node.JS - Coming soon
+* Node.JS - [AutocreditNG-node](https://google.com) by Coming soon
 
 **Java**
 
-* Java - Coming Soon
+* Java - [AutocreditNG-java](https://google.com) by Coming Soon 
 
 **C\#**
 
-* C\# - Coming Soon 
+* C\# - [AutocreditNG-C\# ](https://google.com)by Coming Soon 
 
 {% hint style="info" %}
 **Heads up!**
 
-Built an amazing plugin/library for Autocredit? [Let us know about it](https://autocredit.ng/#contact).
+Built an amazing plugin/library for Autocredit? [Let us know about it](https://autocredit.ng/contact).
 {% endhint %}
 

@@ -6,7 +6,7 @@ Autocredit uses conventional HTTP response codes to indicate the success or fail
 | :--- | :--- |
 | 200 | Everything worked as expected. |
 | 400 | The request was unacceptable, often due to missing a required parameter. |
-| 401 | No valid API key provided. |
+| 401 | No valid API key is provided. |
 | 404 | The requested resource doesn't exist. |
 | 500-504 | Something went wrong on Autocredit's end. These are rare and if they happen, please [contact us](https://autocredit.ng/#contact) immediately. |
 

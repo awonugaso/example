@@ -5,6 +5,8 @@
 
 ## FUNDAMENTALS
 
+---
+
 * [Authentication](authentication.md)
 * [Errors](errors.md)
 * [Plugins & Libraries](community-libraries.md)
@@ -18,32 +20,24 @@
 
 ## PAYMENTS
 
-* [Add Payment](add-payment.md)
+---
+
 * [Get Payment](get-payment.md)
 * [Get Payments](get-payment-history.md)
-
-## INVOICE
-
-* [Add Invoice](invoice/add-invoice.md)
-* [Get Invoice](invoice/untitled-2.md)
-* [Send Invoice](invoice/untitled-2-1.md)
-* [Delete Invoice](invoice/delete-invoice.md)
-* [Get Invoices](invoice/get-invoice-history.md)
 
 ## BANKS
 
 * [Get Banks](banks/get-banks.md)
 * [Resolve Bank Account](banks/resolve-bank-account.md)
 
-## TRANSFERS
+## PAYOUT
 
-* [Bulk Transfer](transfers/withdraw-from-wallet-bulk.md)
+* [Bulk Payout](payout/withdraw-from-wallet-bulk.md)
 
-## Client <a id="client-1"></a>
+## CUSTOMER
 
-* [Get Client](client-1/get-client.md)
-* [Delete Client](client-1/delete-client.md)
-* [Get Clients](client-1/get-clients.md)
+* [Get Customer](customer/get-customer.md)
+* [Get Customers](customer/get-customers.md)
 
 ## Wallet
 

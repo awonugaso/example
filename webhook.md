@@ -4,14 +4,14 @@ A webhook allows your application to receive notifications when updates are made
 
 ## **Setting Up a Webhook**
 
-The [Autocredit Dashboard Settings](https://dashboard.demo.autocredit.ng/settings/webhook) to setup a webhook subscription. You will be required to specify:
+The [Autocredit Dashboard Settings](https://demo.autocredit.ng/) to setup a webhook subscription. You will be required to specify:
 
 * Webhook URL - a URL to your endpoint that can process both verification and notification requests.
-* Verify Token - a string that you supply which we will include whenever we send a verification request.
+* Verify Token - a string you supply which we will include whenever we send a verification request.
 
 ## **Webhook URL**
 
-You need to setup a webhook endpoint before you setup a subscription to it on Autocredit. Your endpoint must be HTTPs and must be able to receive both GET and POST requests.
+You need to setup a webhook endpoint before you set up a subscription to it on Autocredit. Your endpoint must be [HTTPS](https://en.wikipedia.org/wiki/HTTPS) and must be able to receive both GET and POST requests.
 
 If you need help setting up HTTPs on your endpoint, check out the [Getting Started Guide](https://letsencrypt.org/getting-started/) from Let's Encrypt
 
@@ -39,7 +39,9 @@ Whenever their are changes on your account, we will send a POST request to your 
 
 We have created an example Node.js server for you to get started quickly.
 
-* [node-webhook-example](https://github.com/AutoCredit/node-webhook-example) by 
+{% tabs %}
+{% tab title="JavaScript" %}
+* [node-webhook-example](https://github.com/AutoCredit/node-webhook-example) by YoungMaster
 
 ```javascript
 {
@@ -94,4 +96,51 @@ app.post('/webhook', (req, res) => {
 
 app.listen(process.env.PORT || 8005);
 ```
+{% endtab %}
+
+{% tab title="PHP" %}
+```php
+<?php
+
+
+$curl = curl_init();
+$reference = isset($_GET['reference']) ? $_GET['reference'] : '';
+if(!$reference){
+die('No reference supplied');
+}
+
+curl_setopt_array($curl, array(
+CURLOPT_URL => "https://autocredit.ng/payments" . rawurlencode($reference),
+CURLOPT_RETURNTRANSFER => true,
+CURLOPT_HTTPHEADER => [
+    "accept: application/json",
+    "authorization: Bearer SECRET_KEY",
+    "cache-control: no-cache"
+],
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+if($err){
+    // there was an error contacting the Paystack API
+die('Curl returned error: ' . $err);
+}
+
+$tranx = json_decode($response);
+
+if(!$tranx->status){
+// there was an error from the API
+die('API returned error: ' . $tranx->message);
+}
+
+if('success' == $tranx->data->status){
+// transaction was successful...
+// please check other things like whether you already gave value for this ref
+// if the email matches the customer who owns the product etc
+// Give value
+}
+```
+{% endtab %}
+{% endtabs %}
 

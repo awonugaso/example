@@ -1,7 +1,7 @@
 ---
 description: >-
   The Autocredit Inline JS allows you to accept payments on almost every device.
-  It is the easiest, most convenient and secure way of invoicing and accepting
+  It is the easiest, most convenient , and secure way of invoicing and accepting
   payments from your customers.
 ---
 
@@ -29,18 +29,6 @@ Inline Payment
 Invoice refrence code if already exists
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="reference\_code" type="string" required=true %}
-Invoice refence code if already exists
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="client" type="array" required=true %}
-Client Data
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="company\_name" type="string" required=false %}
-Company's Name
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="first\_name" type="string" required=true %}
 Client's first name
 {% endapi-method-parameter %}
@@ -57,28 +45,12 @@ Clien't email address
 Client's phone number
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="address" type="string" required=false %}
-Client's address
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="type" type="string" required=false %}
-Client's type `customer`, `staff` or `vendor`
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="settlement\_bank" type="string" required=false %}
 Clien't settlement bank
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="account\_number" type="string" required=false %}
 Client's account number
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="client\_id" type="string" required=true %}
-Client ID
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="due\_date " type="string" required=true %}
-Invoice due date `MM/DD/YYYY`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="fee\_bearer " type="string" required=true %}
@@ -140,7 +112,6 @@ Item's quantity
             "email": "aremu@autocredit.ng",
             "phone": "+2348078422238"
         },
-      "due_date": "12/30/2016",
       "fee_bearer": "client",
       "items": [
         {
@@ -162,12 +133,6 @@ Item's quantity
   }
 </script>
 ```
-
-{% hint style="info" %}
-**Heads up!**
-
-Only one of `client` or `client_id` is required per invoice object. The `client` parameter will allow you to add a new customer while invoicing on the fly in case you don't have a `client_id`. Client will not be added if already exist. All fields are not required if `reference_code` is available.
-{% endhint %}
 
 {% hint style="warning" %}
 **Heads up!**

@@ -1,10 +1,10 @@
 # Introduction
 
-To get started with the Autocredit API, you should [Create a Demo Account](https://demo.autocredit.ng/).
+To get started with the Autocredit API, you'll need a [Demo Account](https://demo.autocredit.ng/).
 
-Now that you've a demo account, obtain your demo API keys from the [Autocredit Dashboard](https://dashboard.demo.autocredit.ng/settings/api).
+Now that you've got a demo account, obtain your demo API keys from the [Autocredit Dashboard](https://dashboard.demo.autocredit.ng/settings/api).
 
-While testing our API, your base url should always be:
+While testing our API, your base [URL](https://en.wikipedia.org/wiki/URL) should always be:
 
 `https://api.demo.autocredit.ng`
 

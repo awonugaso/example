@@ -70,7 +70,7 @@ curl https://api.autocredit.ng/resolve-account \
   "data": {
     "settlement_bank": 058,
     "account_number": "01234567890",
-    "account_name": "JANE, ALBERT SPECIALIST HOSPITAL"
+    "account_name": "JOHN DOE DOE"
   }
 }
 ```
