@@ -16,8 +16,8 @@
 ## ACCEPT PAYMENT
 
 * [Inline Payment](accept-payment/inline-payment.md)
-* [Split Payment](accept-payment/split-payment/README.md)
-  * [Bulk Payment](accept-payment/split-payment/bulk-payment.md)
+* [Split Payment](accept-payment/split-payment.md)
+* [Bulk Payment](accept-payment/bulk-payment.md)
 
 ## PAYMENTS
 
