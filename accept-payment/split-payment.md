@@ -128,7 +128,7 @@ Enter the amount to give slip account
 
 ```markup
 <form>
-  <script src="https://live.autocredit.cc/js/autocredit.js"></script>
+  <script src="https://autocredit.cc/js/autocredit.js"></script>
   <button type="button" onclick="payWithPayant()"> Pay </button> 
 </form>
 
@@ -179,42 +179,4 @@ Enter the amount to give slip account
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-{% api-method method="options" host="" path="" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="revhead\_id" type="object" required=true %}
-Revenue
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% hint style="info" %}
-**Heads up!**
-
-Only one of `client` or `client_id` is required per invoice object. The `client` parameter will allow you to add a new customer while invoicing on the fly in case you don't have a `client_id`. Client will not be added if already exist. All fields are not required if `reference_code` is available.
-{% endhint %}
 
