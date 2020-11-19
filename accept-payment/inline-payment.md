@@ -97,7 +97,7 @@ Item's quantity
 
 ```markup
 <form>
-  <script src="https://autocredit.ng/js/paydirect.js"></script>
+  <script src="https://autocredit.cc/js/paydirect.js"></script>
   <button type="button" onclick="payWithAutocredit()"> Pay </button> 
 </form>
 
@@ -106,6 +106,7 @@ Item's quantity
     var handler = Autocredit.invoice({
       "key": "e47aa44e4a320ae2a2b6b8804a4d2fa1b74437ab",
       "orderid" : "8747874",
+      "revhead_id": "REV_508587108281",
       "customer": {
             "first_name": "Aremu",
             "last_name": "Idris",
@@ -137,6 +138,6 @@ Item's quantity
 {% hint style="warning" %}
 **Heads up!**
 
-Please ensure that you use the right API endpoint for demo `https://api.demo.autocredit.ng`and `https://api.autocredit.ng` for LIVE on the script tag.
+Please ensure that you use the right API endpoint for demo `https://.autocredit.cc and`  `https://live.autocredit.cc` for LIVE on the script tag.
 {% endhint %}
 
