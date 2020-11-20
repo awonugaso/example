@@ -85,8 +85,21 @@ Item's quantity
 
 {% endapi-method-response-example-description %}
 
-```text
-
+```javascript
+{
+   "status":"success",
+   "message":"Transaction Successfully",
+   "orderid":"20150103259d040315bf8",
+   "data":{
+      "amount":2000,
+      "orderid":"20150103259d040315bf8",
+      "transid":"ACXXPMATOEUACX",
+      "date_paid":"2020-11-19 23:17:26",
+      "status":"approved",
+      "channel":"CARD",
+      "items":"[{\"item\":\"Alumni Fee\",\"description\":\"20150103259 | 2018\/2019 | Alumni Fee | OKON CHRISTOPHER EMMANUEL | 400Level\",\"unit_cost\":\"2000\",\"quantity\":\"1\"}]"
+   }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

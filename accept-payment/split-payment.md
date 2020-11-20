@@ -127,6 +127,18 @@ Enter the amount to give slip account
 {% endapi-method-response-example-description %}
 
 ```markup
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% tabs %}
+{% tab title="Request" %}
+200: OK
+
+```markup
 <form>
   <script src="https://autocredit.cc/js/autocredit.js"></script>
   <button type="button" onclick="payWithPayant()"> Pay </button> 
@@ -175,8 +187,10 @@ Enter the amount to give slip account
     }
 </script>
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endtab %}
+
+{% tab title="Response" %}
+
+{% endtab %}
+{% endtabs %}
 
