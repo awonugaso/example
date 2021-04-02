@@ -110,7 +110,7 @@ Item's quantity
 
 ```markup
 <form>
-  <script src="https://autocredit.cc/js/paydirect.js"></script>
+  <script src="https://autocredit.cc/js/autocredit.js"></script>
   <button type="button" onclick="payWithAutocredit()"> Pay </button> 
 </form>
 
